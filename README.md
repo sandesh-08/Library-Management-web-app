@@ -1,3 +1,3 @@
 # Library-Management-web-app
 
-This is a library managemwent based wweb app created using mern stack
+This is a library managemwent based web app created using mern stack
