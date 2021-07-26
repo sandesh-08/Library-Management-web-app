@@ -1,0 +1,86 @@
+.assign_user{
+    color: green;
+    font-weight: 600;
+}
+
+.apply_filter_home_head{
+    color:rgb(10, 4, 32)
+}
+
+.assign_user:hover{
+    color: rgb(40, 139, 10);
+    font-weight: 620;
+}
+
+.filter_home{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+
+.filter_ip{
+    background-color: rgb(235, 224, 224);
+    width: 20%;
+    border: 2px solid black;
+    border-radius: 30px;
+}
+
+.author_name_home{
+    font-weight: bold;
+    color: rgb(3, 15, 32);
+}
+
+.book_name_home{
+    font-weight: bold;
+    color: rgb(3, 15, 32);
+}
+
+.book_id_number_home{
+    font-weight: bold;
+    color: rgb(3, 15, 32);
+}
+
+.status_home{
+    font-weight: bold;
+    color: rgb(3, 15, 32);
+}
+
+.address_home{
+    font-weight: bold;
+    color: rgb(3, 15, 32);
+}
+
+/* @media (max-width: 710px) {
+    .outer_most_home{
+        margin-left: 0   !important ;
+        margin-right: 0  !important ;
+    }
+} */
+
+@media(max-width: 790px){
+    .table thead{
+        display: none;
+    }
+    .table, .table tbody, .table tr, .table td{
+        display: block;
+        width: 100%;
+    }
+    .table tr{
+        margin-bottom: 25px;
+    }
+    .table tbody tr td{
+        text-align: right;
+        padding-left: 50%;
+        position: relative;
+    }
+    .table td:before{
+        content: attr(data-label);
+        position: absolute;
+        left: 10px;
+        width: 50%;
+        font-weight: 60px;
+        font-size: 16px;
+        text-align: left;
+        color: black;
+    }
+}

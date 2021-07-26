@@ -1,0 +1,26 @@
+.assign_user_section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.labelinput_assignbook{
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-evenly;
+}
+
+.labelbold{
+    font-size: larger;
+    font-weight: bold;
+}
+
+.ipfield_assignbook{
+    background-color: rgb(171, 226, 171);
+    width: 40%;
+    text-align: center;
+    border: 2px solid green;
+    border-radius: 20px;
+    font-weight: bold;
+    color: rgb(9, 10, 1);
+}
